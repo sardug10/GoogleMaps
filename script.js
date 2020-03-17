@@ -4,6 +4,11 @@ function initMap() {
           1st is the object that we have created and 2nd is some options
              */ new google.maps.Map(document.getElementById('map'), {
     center: {lat: 28.7041, lng: 77.1025},
-    zoom: 8 /* max zoom can be 14 */
+    zoom: 8 /* max zoom can be 14
+               1: World
+5: Landmass/continent
+10: City
+15: Streets
+20: Buildings*/
   });
 }
